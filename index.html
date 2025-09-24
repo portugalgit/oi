@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Celso Caluege</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/pinguin.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Developer | SysAdmin | Monitoring | ERP/CRM | IPTV | Data Analyst</p>
+                <h1>Hi, I'm <span>Celso Caluege </span> from Angola</h1>
+            </div>
+        </div>
+    </div>
+    <!------------------ABOUT ME--------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/ac.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a self-taught professional with experience in systems administration, currently working as a DevOps Engineer on the IPTV integration team. Additionally, I stand out for providing excellent technical support, ensuring that IT teams and clients receive prompt and effective assistance.
+                    Monitoring | ERP/CRM | Windows | Linux | PHP</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                         <p class="tab-links" onclick="opentab('certificated')">Certificated</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Design</span><br>Designing Web</li>
+                            <li><span>Developer</span><br>Front-End & Back-End</li>
+                            <li><span>App Design</span><br>Building apps</li>
+                            <li><span>SysAdmin</span><br>Linux and Windows</li>
+                            <li><span>Monitoring</span><br>Nagios/Thruk/Zabbix</li>
+                            <li><span>Data Analyst</span><br>Excel/ELK/SQL/IPTV</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 – Current</span><br>Development and Systems Engineer - <a href="https://www.zap.co.ao/" target="_blank"> ZAP TV</a></li>
+                            <li><span>2017 – 2022</span><br>Support Analyst<a href="https://www.rangel.com/pt/" target="_blank"> RANGEL</a></li>
+                            <li><span>2011 – 2016</span><br>Support Analyst - <a href="https://www.linkedin.com/company/futurecompta/?originalSubdomain=pt" target="_blank"> COMPTA</a></li>
+                            <li><span>2007 – 2010</span><br>Systems Analyst - <a href="https://www.totvs.com/" target="_blank"> TOTVS</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>Degree in Computer Science | IMETRO University</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certificated">
+                        <ul>
+                            <li><span>2010</span><br>CCNA Academy | CINFOTEC</li>
+                            <li><span>2012</span><br>MCP | Microsoft</li>
+                            <li><span>2014</span><br>ADVPL | TOTVS</li>
+                            <li><span>2024</span><br>LPIC-1 | Linux </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+<!-- ----------------------SERVICES------------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>  
+        <div class="services-list">
+        <div>
+            <i class="fas fa-code"></i>
+            <h2>Web Design</h2>
+            <p>I have knowledge in Adobe Photoshop, InDesign, After Effects, Premiere, and Illustrator, creating visually appealing layouts, high-quality images, animations, and videos. I understand responsive design principles to optimise websites across various platforms (mobile, desktop, etc.).</p>
+            <a href="#">Learn more</a>
+        </div>
+
+        <div>
+            <i class="fas fa-crop-alt"></i>
+            <h2>Developer</h2>
+            <p>Proficient in both front-end and back-end development, creating responsive and engaging user interfaces while ensuring robust server-side functionality and efficient database management. Skilled with tools like Git, GitHub, GitLab, HTML5, CSS3, JavaScript, React, Bootstrap, Node.js, Python, MySQL, Docker, and more.</p>
+           <a href="#">Learn more</a>
+        </div>
+
+        <div>
+            <i class="fas fa-store"></i>
+            <h2>App Design</h2>
+            <p>I have experience in creating app designs with a focus on intuitive and visually appealing interfaces. My work ranges from creating prototypes to developing a seamless user experience, ensuring that the app is functional and enjoyable to use.</p>
+            <a href="#">Learn more</a>
+        </div>
+
+        <div>
+            <i class="fas fa-server"></i>
+            <h2>SysAdmin</h2>
+            <p>I have experience in system administration, including the configuration and management of Linux and Windows servers.</p>
+            <p>I have solid knowledge of tools such as Docker, Git, Primavera, Protheus, and Virtualisation (VMware, VirtualBox), as well as configuring network environments and managing access permissions.</p>
+            <a href="#">Learn more</a>
+        </div>
+
+        <div>
+            <i class="fas fa-chart-line"></i>
+            <h2>Monitoring</h2>
+            <p>Experience in infrastructure and service monitoring, with skills in tools such as Nagios, Zabbix, Thruk, and Cacti. I am proficient in configuring custom alerts and creating dashboards that provide real-time insights into system health and network performance.</p>
+            <a href="#">Learn more</a>
+        </div>
+        
+        <div>
+          <i class="fas fa-chart-bar"></i>
+         <h2>Data Analyst</h2>
+            <p>I have knowledge in data analysis with proficiency in tools such as Python, SQL, ELK, and Excel for the collection, cleaning, and interpretation of large volumes of data. I have knowledge in data visualisation using Power BI, creating interactive dashboards and reports to facilitate the understanding of key insights.</p>
+            <a href="#">Learn more</a>
+       </div> 
+            
+      </div>
+    </div>
+</div>
+    
+<!--- ---------Portfolio-------------------- --> 
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/casacona.jpg">
+                    <div class="layer">
+                        <h3>Casacon Home Center</h3>
+                        <p>Retail store</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/totvs.jpg">
+                    <div class="layer">
+                        <h3>Totvs</h3>
+                        <p>Systems and platforms</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/zap1.jpeg">
+                    <div class="layer">
+                        <h3>Zap</h3>
+                        <p>Television company - IPTV</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                 <div class="work">
+                    <img src="images/Fedex1.jpg">
+                    <div class="layer">
+                        <h3>Fedex</h3>
+                        <p>Logistics company</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Rangel.jpg">
+                    <div class="layer">
+                        <h3>Rangel</h3>
+                        <p>Logistics company</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Compta.jpg">
+                    <div class="layer">
+                        <h3>Compta</h3>
+                        <p>Systems and platforms</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ------------contact------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>Email:acelso.emenio@gmail.com</p>
+                    <p>Fone AO: (244) 939 999 899</p>
+                    <p>Fone PT: (351) 932 514 430</p>
+                    <div class="social-icons">
+                        <a href="www.facebook.com/"><i class="fab fa-facebook"></i></a> 
+                        <a href=""><i class="fab fa-twitter-square"></i></a> 
+                        <a href=""><i class="fab fa-instagram"></i></a> 
+                        <a href=""><i class="fab fa-linkedin"></i></a> 
+                    </div>
+                    <a href="images/cv-ac.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="send-email.php" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Celso Caluege <i class="fas fa-heart">DEVOPS</i></p>
+        </div>
+    </div>
+    
+    <script>
+        
+        var tablinks = document.getElementsByClassName('tab-links');  
+        var tabcontents = document.getElementsByClassName('tab-contents');  
+        
+        function opentab(tabname){           
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>
+       
+    <script>
+        
+        var sidemeu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbynBJlRws0FxNpvTSaJdooIdTHeHVGpOAsA-eXLBQrdBh4TEP091_u0FWcDOL2XKSq9/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+    
+</body>
+</html>

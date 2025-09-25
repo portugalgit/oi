@@ -69,6 +69,11 @@ nav ul li a:hover::after{
     margin: 5px 0; /* reduz o espaço acima/abaixo do parágrafo */
     line-height: 1.4; /* deixa o texto mais compacto */
 }
+.tab-titles {
+    display: flex;
+    gap: 20px;           /* espaço entre os itens */
+    margin-bottom: 0;  /* espaço abaixo do menu (reduzido) */
+}
 /*---------------ABOUT_ME----------------------- */
 #about{
     padding: 80px 0;
@@ -80,13 +85,10 @@ nav ul li a:hover::after{
     flex-wrap: wrap;
 }
 .about-col-1 {
-    width: 360px;          /* ajusta conforme necessário */
-    height: 470px;         /* altura fixa */
+    width: 360px;        /* ajusta conforme necessário */
+    height: 470px;       /* altura fixa */
     overflow: hidden;
     border-radius: 10px;
-    display: flex;         /* garante alinhamento */
-    align-items: center;   /* centraliza vertical */
-    justify-content: center; /* centraliza horizontal */
 }
 .about-col-1 img {
     width: 100%;
@@ -204,7 +206,7 @@ nav ul li a:hover::after{
     position: relative;
     overflow: hidden;
     width: 300px;       /* tamanho fixo do container */
-    height: 250px;      /* altura fixa do container */
+    height: 210px;      /* altura fixa do container */
 }
 .work img{
     width: 100%;

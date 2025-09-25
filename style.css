@@ -72,12 +72,21 @@ nav ul li a:hover::after{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.about-col-1{
-    flex-basis: 35%;
+.about-col-1 {
+    width: 360px;          /* ajusta conforme necessário */
+    height: 470px;         /* altura fixa */
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;         /* garante alinhamento */
+    align-items: center;   /* centraliza vertical */
+    justify-content: center; /* centraliza horizontal */
 }
-.about-col-1 img{
+.about-col-1 img {
     width: 100%;
-    border-radius: 15px;
+    height: 100%;
+    object-fit: contain;      /* mantém proporção e corta excesso */
+    display: block;
+    transition: transform 0.5s;
 }
 .about-col-2{
     flex-basis: 60%;

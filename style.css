@@ -69,9 +69,6 @@ nav ul li a:hover::after{
     margin: 5px 0; /* reduz o espaço acima/abaixo do parágrafo */
     line-height: 1.4; /* deixa o texto mais compacto */
 }
-.tab-titles {
-    margin-top: 10px; /* espaço menor entre o texto e as abas */
-}
 /*---------------ABOUT_ME----------------------- */
 #about{
     padding: 80px 0;
